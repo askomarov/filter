@@ -324,8 +324,8 @@ body {
       height: 13px;
       position: absolute;
       right: 0;
-      top: 50%;
-      transform: translateY(-50%);
+      top: 13px;
+      transform: rotate(180deg);
       background: url("../img/Chevron.svg") no-repeat;
     }
     &:focus {
@@ -343,7 +343,7 @@ body {
   }
 }
 .menu-filter__title[aria-expanded="true"]::after {
-  transform: rotate(180deg) translateY(8px);
+  transform: rotate(0deg) translateY(8px);
 }
 .menu-filter__input {
   display: none;
