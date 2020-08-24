@@ -41,3 +41,4 @@ showMoreItem.click(function (evt) {
   $('.item').removeClass('item--more');
 });
 
+
