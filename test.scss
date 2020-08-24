@@ -104,7 +104,7 @@ body {
         -ms-grid-row: 3;
       }
       &:nth-child(4) {
-        -ms-grid-column:3;
+        -ms-grid-column: 3;
         -ms-grid-row: 3;
       }
       &:nth-child(5) {
@@ -430,7 +430,7 @@ body {
     position: absolute;
     z-index: 2;
     left: 2px;
-    top: 2px;
+    top: 2.5px;
     width: 16px;
     height: 16px;
     border-radius: 50%;
