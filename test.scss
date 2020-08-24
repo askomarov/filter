@@ -330,6 +330,9 @@ body {
       top: 13px;
       transform: rotate(180deg);
       background: url("../img/Chevron.svg") no-repeat;
+      @media (max-width: 768px) {
+        top: 0;
+      }
     }
     &:focus {
       outline: 0;
